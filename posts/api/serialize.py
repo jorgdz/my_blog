@@ -3,7 +3,7 @@ from posts.models import Post
 
 class PostSerializer (ModelSerializer):
 
-    class Meta:
-        model = Post
-        fields = ['id', 'title', 'description', 'order', 'created_at']
-        # fields = '__all__'
+	class Meta:
+		model = Post
+		fields = ['id', 'title', 'description', 'order', 'created_at']
+		# fields = '__all__'
